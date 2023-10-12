@@ -1,0 +1,30 @@
+.card {
+  width: 300px;
+  height: 500px;
+  background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url('https://static1.bigstockphoto.com/7/1/1/large1500/117957539.jpg');
+  /* Otros estilos de la tarjeta */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.card-body {
+  padding-top: 30px; /* Ajusta el espacio superior según tus necesidades */
+}
+
+.card-text {
+  margin-top: 20px;
+  text-align: justify; /* Ajusta el espacio superior según tus necesidades */
+}
+
+.bi-check-circle-fill{
+  font-size: 25px;
+  color: blue;
+}
+
+.bi-shop{
+  font-size: 25px;
+  color: blue;
+}
